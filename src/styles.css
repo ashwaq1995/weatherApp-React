@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+body {
+  background-image: url(./background.jpeg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.flex{
+  color: grey;
+  font-family: 'Recursive', sans-serif;
+  font-size: 18px;
+  
+}
+
+.container {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-color: rgba(0,0,0,0.4);
+  color: grey;
+
+}
+
+.container:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  width: 50rem;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
